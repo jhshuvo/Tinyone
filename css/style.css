@@ -1,0 +1,210 @@
+/* fonts links */
+@font-face{
+    src: url(../fonts/pt-sans/ptsans-regular.ttf);
+    font-family: ptsans-reguler;
+}
+@font-face{
+    src: url(../fonts/pt-sans/ptsans-bold.ttf);
+    font-family: ptsans-bold;
+}
+
+/* Commmon css start */
+body{
+    font-family: ptsans-reguler;
+    font-size: 16px;
+    color: #010101;
+    margin-top: 90px;
+    
+}
+/* Commmon css ends */
+
+/* --header starts */
+header{
+    padding: 17px 0  ;
+    background-color: #fcdb00;
+}
+
+.menu ul li a{
+    padding: 0 55px !important;
+    font-family:ptsans-bold ;
+    font-size: 22px !important;
+    color: black !important;
+}
+.menu ul li a:hover{
+    color: #ffffff !important;
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+
+/* header ends */
+
+
+/* Slider starts */
+.slider{
+    padding: 50px 0px 100px 0px;
+    background-color: #fcdb00;
+ 
+}
+.c_indi{
+    bottom: -80px;
+}
+
+.c_indi [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+}
+
+.slider_text{
+    margin-top:70px ;
+}
+.slider_text h1{
+    font-family:ptsans-bold ;
+    font-size: 32px;
+    color: #010101;
+   
+}
+.slider_text h2{
+    margin: 20px 0;
+    font-family: ptsans-reguler;
+    font-size: 20px;
+    color: #313841;
+}
+.slider_text p{
+    margin-bottom: 35px ;
+    color: #555555;
+}
+
+.slider_icon ul li{
+    margin-right: 30px !important;
+}
+.slider_icon ul li i{
+    font-size: 42px;
+    color: #010101;
+    transition: .33s;
+}
+
+.slider_icon ul li i:hover{
+    color: #ffffff;
+    transform: scale(.8);
+    
+}
+/* Slider ends */
+
+/* Tinyone Features starts */
+/*  row -1 */
+.features{
+    padding: 100px 0 120px ;
+
+}
+.common_titel h2{
+    margin-bottom: 18px;
+    font-family:ptsans-bold ;
+    font-size: 32px;
+
+}
+.common_titel p{
+    font-family: ptsans-reguler;
+    font-size: 20px;
+    line-height: 32px;
+}
+.colour_p{
+    color: #313841 !important;
+}
+/* row 2 */
+
+.feature_item{
+    padding-top: 70px;
+}
+.feature_icon i{
+    font-size: 50px;
+    color: #010101;
+    transition: .33s;
+}
+.feature_icon i:hover{
+    transform: scale(.8);
+}
+.feature_text h2{
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+.feature_text p{
+    color:#898989;   
+}
+
+/* Tinyone Features ends */
+/* --Contact section starts */
+.contact{
+    padding: 100px 0 120px ;
+    background-color: black;
+}
+.contact_h2{
+    color: #fcdb00;
+}
+.contact_p{
+    color:#898989 !important;
+}
+
+.email_form{
+    margin: 40px 0 70px;
+
+}
+.contact_input{
+    padding: 15px 20px;
+    height: 54px;
+    font-family: ptsans-reguler;
+    color:#898989;
+
+}
+.Contact_btn{
+    width: 100%;
+    height: 55px;
+    font-family: ptsans-bold;
+    font-size: 16px;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+}
+.Contact_btn:hover{
+    background-color: #ffffff;
+}
+.Contact_btn:active{
+    background-color:#fcdb00
+}
+
+
+/* 3rd row */
+.contact_icon li{
+    margin-right: 30px !important;
+}
+.contact_icon li:last-child{
+    margin-right: 0 !important;
+}
+.contact_icon  li i{
+    font-size: 50px;
+    color:#fcdb00 !important;
+    transition: .33s;
+
+}
+.contact_icon li i:hover{
+    color: #ffffff !important;
+    transform: scale(.8);
+}
+
+/* Contact section ends */
+
+/* footer Starts */
+footer{
+    padding-bottom: 120px;
+    background-color: #010101;    
+}
+.foot_1 address{
+    color: #ffffff;
+}
+.foot_2 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* footer ends */
